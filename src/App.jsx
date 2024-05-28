@@ -1,11 +1,13 @@
-const App = () => {
-	return (
-		<>
-			<h1 className="text-3xl font-bold underline">
-				Hello world!
-			</h1>
-		</>
-	)
-}
+import WSPGallery from './components/WSPGallery';
 
-export default App
+const App = () => {
+
+  return (
+    <main>
+			<WSPGallery />
+    </main>
+  );
+};
+
+export default App;
+

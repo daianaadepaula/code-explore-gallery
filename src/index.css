@@ -6,16 +6,15 @@
 
 :root {
   --font-code: "Source Code Pro", monospace;
-	color-scheme: dark;
+  color-scheme: dark;
 }
 
 * {
   scroll-behavior: smooth;
 }
 
-
 @layer base {
   body {
-    @apply font-code m-0 p-0 box-border overflow-hidden;
+    @apply font-sans m-0 p-0 box-border;
   }
 }
